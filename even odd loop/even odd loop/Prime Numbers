@@ -1,0 +1,33 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+using namespace std;
+void main ()
+{
+	cout << "\t\t\t\t\t\tNumber From 1 to 100"<< endl<< endl;
+	int x=0;
+	while(x<100){
+	x++;
+	cout << "\t" << x;
+	
+	}
+	cout << endl<< endl<<"\t\t\t\t\t\t\tPrime Numbers";
+	cout << endl;
+	cout << endl;
+	for (int i=2; i<=100; i++){
+		for
+			(int j =2;j<=i;j++){
+			
+		if
+			(i%j == 0){
+				break;
+						
+			}else if(i == j+1){
+			cout << "\t" << i;
+				}
+		
+		} 
+	} 
+
+getch();
+}
